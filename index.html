@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Form</title>
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/media-queries.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-container">
+        
+        <div class="front">
+          <div class="image">
+            <img src="assets/img/chip.png" alt="">
+            <img src="assets/img/visa.png" alt="">
+          </div>
+          <div class="card-number-box">################</div>
+          <div class="flexbox">
+            <div class="box">
+              <span>card holder</span>
+              <div class="card-holder-name">full name</div>
+            </div>
+            <div class="box">
+              <span>expires</span>
+              <div class="expiration">
+                <span class="exp-month">mm</span>
+                <span class="exp-year">yy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="back">
+          <div class="stripe"></div>
+          <div class="box">
+            <span>cvv</span>
+            <div class="cvv-box"></div>
+            <img src="assets/img/visa.png" alt="">
+          </div>
+        </div>
+        
+      </div>
+      
+      <form onsubmit="return validForm()">
+        <div class="inputBox">
+          <span>Card Number</span>
+          <input type="text" maxlength="19" class="card-number-input" id="card-number" required>
+        </div>
+        
+        <div class="inputBox">
+          <span>Card Holder</span>
+          <input type="text" maxlength="40" class="card-holder-input" id="card-holder" required>
+        </div>
+        <div class="flexbox">
+          <div class="inputBox">
+            <span>Expiration MM</span>
+            <select class="month-input" required>
+              <option value="month" selected disabled>month</option>
+            </select>
+        </div>
+          <div class="inputBox">
+            <span>Expiration YY</span>
+            <select name="" id="" class="year-input" required>
+              <option value="year" selected disabled>year</option>
+            </select>
+        </div>
+        <div class="inputBox">
+          <span>CVV</span>
+          <input type="number" maxlength="3" class="cvv-input" required>
+        </div>
+        </div>
+        <input type="submit" value="submit" class="submit-button">
+      </form>
+      
+    </div>
+    
+    
+    
+    <script src="assets/scripts/script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,221 @@
+@media screen and (max-width: 480px) {
+  .container form {
+    width: 90vw;
+  }
+  
+  .container .card-container {
+    margin-bottom: -150px;
+    height: 150px;
+    width: 200px;
+  }
+  
+  .container .card-container .front .image {
+    padding-top: 3px;
+  }
+
+  .container .card-container .front .card-number-box {
+    padding: 20px 0;
+    font-size: 11px;
+  }
+
+  .container .card-container .front .flexbox .box {
+    font-size: 11px;
+  }
+
+  .container .card-container .back .stripe {
+    margin: 5px 0;
+  }
+  
+  .container .card-container .front img {
+    height: 3vh;
+  }
+
+  .container form .submit-button {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px){
+  .container form {
+    width: 90vw;
+  }
+  
+  .container .card-container {
+    margin-bottom: -150px;
+    height: 200px;
+    width: 300px;
+  }
+  
+  .container .card-container .front .image {
+    padding-top: 3px;
+  }
+
+  .container .card-container .front .card-number-box {
+    padding: 20px 0;
+    font-size: 18px;
+  }
+
+  .container .card-container .front .flexbox .box {
+    font-size: 11px;
+  }
+
+  .container .card-container .back .stripe {
+    margin: 5px 0;
+  }
+  
+  .container .card-container .front img {
+    height: 3vh;
+  }
+
+  .container form .submit-button {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .container form {
+    width: 90vw;
+  }
+  
+  .container .card-container {
+    margin-bottom: -150px;
+    height: 200px;
+    width: 300px;
+  }
+  
+  .container .card-container .front .image {
+    padding-top: 3px;
+  }
+
+  .container .card-container .front .card-number-box {
+    padding: 20px 0;
+    font-size: 22px;
+  }
+
+  .container .card-container .front .flexbox .box {
+    font-size: 11px;
+  }
+
+  .container .card-container .back .stripe {
+    margin: 5px 0;
+  }
+  
+  .container .card-container .front img {
+    height: 3vh;
+  }
+
+  .container form .submit-button {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .container form {
+    width: 90vw;
+  }
+  
+  .container .card-container {
+    margin-bottom: -150px;
+    height: 150px;
+    width: 250px;
+  }
+  
+  .container .card-container .front .image {
+    padding-top: 3px;
+  }
+
+  .container .card-container .front .card-number-box {
+    padding: 20px 0;
+    font-size: 18px;
+  }
+
+  .container .card-container .front .flexbox .box {
+    font-size: 11px;
+  }
+
+  .container .card-container .back .stripe {
+    margin: 5px 0;
+  }
+  
+  .container .card-container .front img {
+    height: 3vh;
+  }
+
+  .container form .submit-button {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  .container form {
+    width: 50vw;
+  }
+  
+  .container .card-container {
+    margin-bottom: -100px;
+    height: 160px;
+    width: 250px;
+  }
+  
+  .container .card-container .front .image {
+    padding-top: 3px;
+  }
+
+  .container .card-container .front .card-number-box {
+    padding: 20px 0;
+    font-size: 18px;
+  }
+
+  .container .card-container .front .flexbox .box {
+    font-size: 11px;
+  }
+
+  .container .card-container .back .stripe {
+    margin: 5px 0;
+  }
+  
+  .container .card-container .front img {
+    height: 3vh;
+  }
+
+  .container form .submit-button {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container form {
+    width: 50vw;
+  }
+  
+  .container .card-container {
+    margin-bottom: -90px;
+    height: 200px;
+    width: 350px;
+  }
+  
+  .container .card-container .front .image {
+    padding-top: 3px;
+  }
+
+  .container .card-container .front .card-number-box {
+    padding: 20px 0;
+    font-size: 21px;
+  }
+
+  .container .card-container .front .flexbox .box {
+    font-size: 11px;
+  }
+
+  .container .card-container .back .stripe {
+    margin: 5px 0;
+  }
+  
+  .container .card-container .front img {
+    height: 3vh;
+  }
+
+  .container form .submit-button {
+    font-size: 16px;
+  }
+}
